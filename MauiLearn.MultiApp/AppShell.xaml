@@ -1,0 +1,69 @@
+<!--xmlns + clr-namespace- wanted or needed wtf?? get more on this -->
+<Shell FlyoutBehavior="Flyout"
+    x:Class="MauiLearn.MultiApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:MauiLearn.MultiApp.Pages"
+    xmlns:views="clr-namespace:MauiLearn.MultiApp.Views"
+    xmlns:pageModels="clr-namespace:MauiLearn.MultiApp.PageModels"
+    xmlns:viewModels="clr-namespace:MauiLearn.MultiApp.ViewModels"
+    >
+
+        <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" FlyoutIcon="appicon.png" >
+            <Tab Title="Core Model"  >
+                <ShellContent Title="Home" ContentTemplate="{DataTemplate pageModels:BaseCoreModel}" />
+                <ShellContent Title="Login"/>
+                <ShellContent Title="Register"/>
+                          
+            </Tab>
+            <!--
+            Shell has implicit conversion operators that enable the Shell visual hierarchy to be simplified.
+            This is possible because a subclassed Shell object can only ever contain a FlyoutItem object or a TabBar object,
+            which can only ever contain Tab objects, which can only ever contain ShellContent objects.
+
+            The implicit conversion automatically wraps the ShellContent objects below in Tab objects.
+            -->
+            <ShellContent Title="Monkeys"  Icon="monkey.png"/>
+                          <!--ContentTemplate="{DataTemplate views:MonkeysPage}"--> 
+            <ShellContent Title="Elephants" Icon="elephant.png"/>
+                          <!--ContentTemplate="{DataTemplate views:ElephantsPage}"--> 
+            <ShellContent Title="Bears" Icon="bear.png"/>
+                          <!--ContentTemplate="{DataTemplate views:BearsPage}"--> 
+        </FlyoutItem>
+
+    <!-- Global Shell Styles -->
+      <!--<Shell.Resources>-->
+   
+        <!-- Change the flyout menu title font --><!--
+        <Style TargetType="Shell">
+            <Setter Property="TitleColor" Value="DarkRed" />
+        </Style>
+
+        --><!-- Change the page title in the navigation bar --><!--
+        <Style TargetType="Label" x:Key="PageTitleLabel">
+            <Setter Property="FontSize" Value="28" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="TextColor" Value="DarkGreen" />
+        </Style>
+    </Shell.Resources>-->
+    <!-- Unauthenticated pages-->
+    <!--<ShellContent Route="Login" ContentTemplate="{DataTemplate pages:LoginView}" />
+    <ShellContent Route="Register" ContentTemplate="{DataTemplate pages:RegisterPage}" />-->
+     <!-- Authenticated world 
+    <ShellContent Route="BaseCoreModel" ContentTemplate="{DataTemplate view:BaseCoreModel}" />
+-->
+    <!--<TabBar x:Name="BaseTabBar" >
+        <Tab Title="Home">-->
+ <!--<ShellContent ContentTemplate="{DataTemplate pages:BaseCoreModel}" />-->
+    <!--</Tab>
+    </TabBar>-->
+
+    <!-- 
+     Flyout menu with HomeView
+    <FlyoutItem x:Name="BaseFlyout" Title="Home" Icon="home.png">
+        <ShellContent
+            Title="Dashboard"
+            ContentTemplate="{DataTemplate views:BaseCoreModel}" />
+    </FlyoutItem> -->
+
+</Shell>

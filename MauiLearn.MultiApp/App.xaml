@@ -1,0 +1,77 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiLearn.MultiApp"
+             x:Class="MauiLearn.MultiApp.App">
+    
+    <!---3/24/2026 - ABSOLUTELY TO BE KNOWN FROM MS AND THIS XAML STYLES (from Copilot)
+        Layer       Depends On      Must Load After
+        Colors      nothing         (first)
+        Styles      colors          colors
+        Typography  colors, styles  colors + styles
+        Icons       colors          colors
+    -->
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#512BD4</Color> <!-- Copilot is saying to just adding Primary here to continue-->
+            <ResourceDictionary.MergedDictionaries>
+               
+                <!-- Colors -->
+                <ResourceDictionary Source="Resources/Styles/Colors/ColorPalette.xaml" /><!--first physical list of keys-->
+                <ResourceDictionary Source="Resources/Styles/Colors/Colors.xaml" /> <!--second primary key, physically different -->
+
+                <!--  ?? -->
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+                
+                <!-- Typography -->
+                <ResourceDictionary Source="Resources/Styles/Typography/Typography.xaml" />
+
+                <!-- Icons -->
+                <ResourceDictionary Source="Resources/Styles/Icons/Icons.xaml" />
+                
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- GLOBAL STYLES - for "just in case: base here" each other styles can taken over-->
+
+            <!--Labels-->
+            <!--<Style TargetType="Label" BasedOn="{StaticResource BaseFontStyle}">
+                <Setter Property="TextColor"
+               Value="{AppThemeBinding Light={StaticResource DarkOnLightBackground},
+                                       Dark={StaticResource LightOnDarkBackground}}" />
+                <Setter Property="FontSize" Value="{StaticResource BodyFontSize}" />
+            </Style>-->
+
+            <!--Buttons-->
+            <!--<Style TargetType="Button">
+                <Setter Property="CornerRadius" Value="8" />
+                <Setter Property="Padding" Value="12,8" />
+                <Setter Property="FontFamily"
+               Value="{OnPlatform 
+                           WinUI=SegoeSemibold,
+                           Android=Roboto-Medium,
+                           iOS=.SFUI-SemiBold,
+                           MacCatalyst=.SFUI-SemiBold}" />
+                <Setter Property="FontSize" Value="{StaticResource BodyFontSize}" />
+            </Style>-->
+
+            <!--ImageButtons-->
+            <!--<Style TargetType="ImageButton">
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="Padding" Value="0" />
+            </Style>-->
+
+            <!--Entries-->
+            <!--<Style TargetType="Entry">
+                <Setter Property="FontSize" Value="{StaticResource BodyFontSize}" />
+                <Setter Property="TextColor"
+               Value="{AppThemeBinding Light={StaticResource DarkOnLightBackground},
+                                       Dark={StaticResource LightOnDarkBackground}}" />
+                <Setter Property="PlaceholderColor"
+               Value="{AppThemeBinding Light={StaticResource Gray400},
+                                       Dark={StaticResource Gray500}}" />
+            </Style>-->
+
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

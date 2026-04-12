@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:MauiLearn.MultiApp.ViewModels"
+             x:Class="MauiLearn.MultiApp.Views.DashboardView">
+    <VerticalStackLayout>
+        <Label 
+            Style="{StaticResource Headline}"
+            Text="{Binding Title}"
+            BackgroundColor="PaleVioletRed"
+            TextDecorations="Underline"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+             Style="{StaticResource SubHeadline}"
+             Text="{Binding Today}"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" />
+
+        
+    </VerticalStackLayout>
+</ContentView>

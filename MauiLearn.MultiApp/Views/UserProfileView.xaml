@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLearn.MultiApp.Views.UserProfileView"
+             xmlns:viewModels="clr-namespace:MauiLearn.MultiApp.ViewModels"
+             x:DataType="viewModels:UserProfileViewModel"
+             xmlns:pages="clr-namespace:MauiLearn.MultiApp.Pages"
+             xmlns:BaseCoreModels="clr-namespace:MauiLearn.MultiApp.Pages"
+             xmlns:views="clr-namespace:MauiLearn.MultiApp.Views"
+             xmlns:pageModels="clr-namespace:MauiLearn.MultiApp.PageModels"
+             xmlns:stores="clr-namespace:MauiLearn.MultiApp.Stores"
+             >
+   
+    <VerticalStackLayout Padding="20">
+        <Label Text="User Profile" FontSize="24" />
+        <Label Text="{Binding Username}" FontSize="18" HorizontalOptions="Center" />
+        <Label Text="{Binding DisplayInfo}" FontSize="18" HorizontalOptions="Center" />
+        <Label Text="{Binding DisplayName}" FontSize="18" HorizontalOptions="Center" />
+        <Label Text="{Binding Email}" FontSize="18" HorizontalOptions="Center" />
+        <Label Text="{Binding IntroductionMessage}" FontSize="18" HorizontalOptions="Center" />
+
+        <Button Text="Save Profile" Command="{Binding GoToSaveProfile}" HeightRequest="50"/>
+        <VerticalStackLayout Padding="10" ></VerticalStackLayout>
+        <Button Text="Cancel" Command="{Binding GoToCancel}" HeightRequest="50" />
+    </VerticalStackLayout>
+</ContentView>

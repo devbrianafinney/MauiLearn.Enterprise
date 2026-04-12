@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\devbr\\source\\repos\\Transfer\\MauiLearn.CoreEF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D757C656-3626-038B-54FC-ED063BB5B501}|..\\MauiLearn.Core.Services\\MauiLearn.Core.Services.csproj|c:\\users\\devbr\\source\\repos\\transfer\\mauilearn.core.services\\mauilearn.core.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F86C081B-03FC-CA24-7413-63B760D54B00}|MauiLearn.CoreEF.csproj|c:\\users\\devbr\\source\\repos\\transfer\\mauilearn.coreef\\mauilearn.coreef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F86C081B-03FC-CA24-7413-63B760D54B00}|MauiLearn.CoreEF.csproj|solutionrelative:mauilearn.coreef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiLearn.Core.Services",
+              "DocumentMoniker": "C:\\Users\\devbr\\source\\repos\\Transfer\\MauiLearn.Core.Services\\MauiLearn.Core.Services.csproj",
+              "RelativeDocumentMoniker": "..\\MauiLearn.Core.Services\\MauiLearn.Core.Services.csproj",
+              "ToolTip": "C:\\Users\\devbr\\source\\repos\\Transfer\\MauiLearn.Core.Services\\MauiLearn.Core.Services.csproj",
+              "RelativeToolTip": "..\\MauiLearn.Core.Services\\MauiLearn.Core.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-20T01:51:46.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiLearn.CoreEF",
+              "DocumentMoniker": "C:\\Users\\devbr\\source\\repos\\Transfer\\MauiLearn.CoreEF\\MauiLearn.CoreEF.csproj",
+              "RelativeDocumentMoniker": "MauiLearn.CoreEF.csproj",
+              "ToolTip": "C:\\Users\\devbr\\source\\repos\\Transfer\\MauiLearn.CoreEF\\MauiLearn.CoreEF.csproj",
+              "RelativeToolTip": "MauiLearn.CoreEF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-20T01:50:07.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

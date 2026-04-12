@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <FontImageSource x:Key="IconDashboard"
+                     Glyph="&#xF0E3;"
+                     FontFamily="FluentUI"
+                     Size="{StaticResource IconSize}"
+                     Color="{AppThemeBinding Light={StaticResource DarkOnLightBackground},
+                                             Dark={StaticResource LightOnDarkBackground}}" />
+
+    <FontImageSource x:Key="IconProjects"
+                     Glyph="&#xF0C8;"
+                     FontFamily="FluentUI"
+                     Size="{StaticResource IconSize}"
+                     Color="{AppThemeBinding Light={StaticResource DarkOnLightBackground},
+                                             Dark={StaticResource LightOnDarkBackground}}" />
+
+    <FontImageSource x:Key="IconMeta"
+                     Glyph="&#xF0A2;"
+                     FontFamily="FluentUI"
+                     Size="{StaticResource IconSize}"
+                     Color="{AppThemeBinding Light={StaticResource DarkOnLightBackground},
+                                             Dark={StaticResource LightOnDarkBackground}}" />
+
+    <FontImageSource x:Key="IconRibbon"
+                     Glyph="&#xF12B;"
+                     FontFamily="FluentUI"
+                     Size="{StaticResource IconSize}"
+                     Color="{AppThemeBinding Light={StaticResource DarkOnLightBackground},
+                                             Dark={StaticResource LightOnDarkBackground}}" />
+
+    <FontImageSource x:Key="IconAdd"
+                     Glyph="&#xF0A7;"
+                     FontFamily="FluentUI"
+                     Size="{StaticResource IconSize}"
+                     Color="{AppThemeBinding Light={StaticResource White},
+                                             Dark={StaticResource LightOnDarkBackground}}" />
+
+    <FontImageSource x:Key="IconDelete"
+                     Glyph="&#xF0B0;"
+                     FontFamily="FluentUI"
+                     Size="{StaticResource IconSize}"
+                     Color="{AppThemeBinding Light={StaticResource DarkOnLightBackground},
+                                             Dark={StaticResource LightOnDarkBackground}}" />
+
+    <FontImageSource x:Key="IconClean"
+                     Glyph="&#xF0D2;"
+                     FontFamily="FluentUI"
+                     Size="{StaticResource size240}"
+                     Color="{AppThemeBinding Light={StaticResource DarkOnLightBackground},
+                                             Dark={StaticResource LightOnDarkBackground}}" />
+
+    <FontImageSource x:Key="IconLight"
+                     Glyph="&#xF0E7;"
+                     FontFamily="FluentUI"
+                     Size="{StaticResource size240}"
+                     Color="{AppThemeBinding Light={StaticResource DarkOnLightBackground},
+                                             Dark={StaticResource LightOnDarkBackground}}" />
+
+    <FontImageSource x:Key="IconDark"
+                     Glyph="&#xF0E8;"
+                     FontFamily="FluentUI"
+                     Size="{StaticResource size240}"
+                     Color="{AppThemeBinding Light={StaticResource DarkOnLightBackground},
+                                             Dark={StaticResource LightOnDarkBackground}}" />
+
+</ResourceDictionary>
