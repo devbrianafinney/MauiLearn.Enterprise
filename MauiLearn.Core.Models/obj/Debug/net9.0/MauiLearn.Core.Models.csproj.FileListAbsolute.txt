@@ -1,0 +1,12 @@
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\bin\Debug\net9.0\MauiLearn.Core.Models.deps.json
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\bin\Debug\net9.0\MauiLearn.Core.Models.dll
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\bin\Debug\net9.0\MauiLearn.Core.Models.pdb
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\obj\Debug\net9.0\MauiLearn.Core.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\obj\Debug\net9.0\MauiLearn.Core.Models.AssemblyInfoInputs.cache
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\obj\Debug\net9.0\MauiLearn.Core.Models.AssemblyInfo.cs
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\obj\Debug\net9.0\MauiLearn.Core.Models.csproj.CoreCompileInputs.cache
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\obj\Debug\net9.0\MauiLearn.Core.Models.sourcelink.json
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\obj\Debug\net9.0\MauiLearn.Core.Models.dll
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\obj\Debug\net9.0\refint\MauiLearn.Core.Models.dll
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\obj\Debug\net9.0\MauiLearn.Core.Models.pdb
+C:\Users\devbr\OneDrive\dev\GitHub\MauiLearn.Enterprise\MauiLearn.Core.Models\obj\Debug\net9.0\ref\MauiLearn.Core.Models.dll

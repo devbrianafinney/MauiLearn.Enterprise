@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bEuksUayYfk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\devbr\\OneDrive\\dev\\GitHub\\MauiLearn.Enterprise\\MauiLearn.Core.Services\\MauiLearn.Core.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\devbr\\.nuget\\packages\\communitytoolkit.mvvm\\8.3.2\\communitytoolkit.mvvm.8.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

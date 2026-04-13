@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiLearn.Core.Services</name>
+    </assembly>
+    <members>
+        <member name="T:MauiLearn.Core.Extensions.StringExtensions">
+            <summary>
+            Common string helper extensions for positional and value-based replacements.
+            Designed to be small, safe, and easy to read.
+            </summary>
+        </member>
+        <member name="M:MauiLearn.Core.Extensions.StringExtensions.ReplaceAt(System.String,System.Int32,System.Char)">
+            <summary>
+            Replaces the character at the specified index with <paramref name="newChar"/>.
+            </summary>
+        </member>
+        <member name="M:MauiLearn.Core.Extensions.StringExtensions.ReplaceRange(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            Replaces a range of characters starting at <paramref name="index"/> with <paramref name="replacement"/>.
+            If replacement is null it is treated as empty string.
+            </summary>
+        </member>
+        <member name="M:MauiLearn.Core.Extensions.StringExtensions.ReplaceFirst(System.String,System.String,System.String)">
+            <summary>
+            Replaces the first occurrence of <paramref name="search"/> with <paramref name="replace"/>.
+            If search is null or empty the original string is returned.
+            </summary>
+        </member>
+        <member name="M:MauiLearn.Core.Extensions.StringExtensions.ReplaceLast(System.String,System.String,System.String)">
+            <summary>
+            Replaces the last occurrence of <paramref name="search"/> with <paramref name="replace"/>.
+            If search is null or empty the original string is returned.
+            </summary>
+        </member>
+        <member name="M:MauiLearn.Core.Extensions.StringExtensions.ReplaceAtMany(System.String,System.Int32[],System.Char[])">
+            <summary>
+            Replaces characters at multiple indices with the corresponding characters in <paramref name="replacements"/>.
+            Indices and replacements arrays must be the same length.
+            This method uses a single char[] allocation and is efficient for a handful of edits.
+            </summary>
+        </member>
+        <member name="M:MauiLearn.Core.Extensions.StringExtensions.ReplaceLimit(System.String,System.String,System.String,System.Nullable{System.Int32})">
+            <summary>
+            Replaces all occurrences of <paramref name="oldValue"/> with <paramref name="newValue"/> but only up to <paramref name="maxReplacements"/>.
+            If maxReplacements is null or less than 1, all occurrences are replaced.
+            </summary>
+        </member>
+        <member name="M:MauiLearn.Core.Extensions.StringExtensions.Replace(System.String,System.String,System.String,System.StringComparison)">
+            <summary>
+            Convenience overload for String.Replace with StringComparison.
+            Replaces all occurrences using the provided comparison.
+            </summary>
+        </member>
+    </members>
+</doc>
